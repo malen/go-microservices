@@ -6,3 +6,15 @@ proto:
 .PHONY: gateway
 gateway:
 	go run gateway/main.go
+
+.PHONY: auth
+auth:
+	go run auth/main.go
+
+.PHONY: product
+product:
+	go run product/main.go
+
+.PHONY: order
+order:
+	go run order/main.go
